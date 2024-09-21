@@ -1,7 +1,11 @@
 # GREETINGS! WELCOME TO THE GUIDE :)
 You'll find step-by-step instructions for common tasks. Tips for collaborating with others are included as well. Whether you're a beginner or looking to improve, this guide is for you!
 
+Check out these for more info:
 
+- [The GitHub Blog](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)
+-[git-cheet-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+-[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
 
 ## Forking A Repo
  Makes a copy of **someone else’s repository** on GitHub under your account.This is your version of the project.
