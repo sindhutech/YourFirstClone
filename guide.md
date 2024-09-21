@@ -4,8 +4,8 @@ You'll find step-by-step instructions for common tasks. Tips for collaborating w
 Check out these for more info:
 
 - [The GitHub Blog](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)<br>
--[git-cheet-sheet](https://education.github.com/git-cheat-sheet-education.pdf)<br>
--[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)<br>
+- [git-cheet-sheet](https://education.github.com/git-cheat-sheet-education.pdf)<br>
+- [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)<br>
 
 ## Forking A Repo
  Makes a copy of **someone else’s repository** on GitHub under your account.This is your version of the project.
@@ -108,6 +108,27 @@ git push origin branch_name
 ```
 
 
+## git pull
+ This fetches changes from a remote repository and merges them into your current branch. By default, it pulls from the remote repository named origin (which is typically the default name for the repository you cloned from) and the specified branch.
+
+
+```bash
+git pull origin branch_name
+```
+> **NOTE:** Pulls from whatever branch name you've mentioned to current branch you're working in.
+
+
+
+## git merge
+` git merge` is used to combine the changes from one branch into another. You typically use this after you’ve completed work on one branch and want to merge it into another branch, such as combining a feature branch into the main branch. Git will attempt to automatically merge the changes, but if there are conflicts, you'll need to resolve them manually.
+
+```bash
+git merge  branch_name
+```
+> **NOTE:** Merges whatever branch name you've mentioned to current branch you're working in.
+
+
+
 
 ## branching:
 Branches in Git are like parallel versions of your project. They allow you to work on different tasks , features or experiments without affecting the main project.
@@ -138,7 +159,7 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 # JUST THE COMMANDS:
  **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone repository-url
    ```
 
    **Check Status**:
@@ -148,7 +169,7 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 
    **Add One file**:
    ```bash
-    git add <filename>
+    git add filename
    ```
 
    **Add All Files**:
@@ -163,7 +184,17 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 
    **Push Changes To Branch**:
    ```bash
-    git push origin <branchname>
+    git push origin branchname
+   ```
+
+   **To Pull Changes**:
+   ```bash
+    git pull origin branchname
+   ```
+
+   **To Merge**:
+   ```bash
+    git merge branchname
    ```
 
    **To Check All Available Branches**:
@@ -178,12 +209,12 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 
    **To Create New Branch**:
    ```bash
-    git branch <new-branchname>
+    git branch new-branchname
    ```
 
    **To Move To Another Branch**:
    ```bash
-    git checkout <branchname>
+    git checkout branchname
    ```
 
    <!-- 
@@ -195,7 +226,7 @@ Branches in Git are like parallel versions of your project. They allow you to wo
    ## if you're feeling nerdy , then checkout these other commands  
    **Unstage Files**:
    ```bash
-    git reset HEAD <file>
+    git reset HEAD filename
    ```
 
    **Undo The Last Commit (but keep the changes)**:
@@ -205,5 +236,5 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 
    **Discard Changes In Working Directory**:
    ```bash
-    git checkout -- <file>
+    git checkout -- file
    ```
