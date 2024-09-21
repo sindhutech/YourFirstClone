@@ -3,9 +3,9 @@ You'll find step-by-step instructions for common tasks. Tips for collaborating w
 
 Check out these for more info:
 
-- [The GitHub Blog](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)
--[git-cheet-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
--[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
+- [The GitHub Blog](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)<br>
+-[git-cheet-sheet](https://education.github.com/git-cheat-sheet-education.pdf)<br>
+-[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)<br>
 
 ## Forking A Repo
  Makes a copy of **someone else’s repository** on GitHub under your account.This is your version of the project.
