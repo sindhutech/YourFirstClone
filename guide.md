@@ -65,7 +65,7 @@ If you receive an invitation to collaborate on a GitHub repository, follow these
 When you run git status, it gives you information like:
 - Tracked Files: Files that Git is already tracking.
 - Untracked Files: Files that are in your project directory but haven’t been tracked by Git yet
-- Current Branch: The branch you are currently working on, whether it's main, some branch taht you've created.
+- Current Branch: The branch you are currently working on, whether it's main, some branch that you've created.
 ```bash
  git status
  ```
