@@ -10,9 +10,6 @@ Check out these for more info:
 ## Forking A Repo
  Makes a copy of **someone else’s repository** on GitHub under your account.This is your version of the project.
  > For a simple analogy: if a friend has a toy, forking is like getting your own copy of that toy to play with at home. Cloning is like borrowing it and bringing it to your house to play with.
- - On the top right corner of the repository page, you’ll see a button that says "Fork." Click it.
- - GitHub will now create a copy of that repository in your own GitHub account.
- - You can add a description and click **Creating fork**
 
  1. **Log in to GitHub**: Ensure you are logged into your GitHub account.
 
@@ -34,7 +31,7 @@ Check out these for more info:
 
  3. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone your-repository-url
    ```
 
 ## Add a Collaborator
@@ -236,5 +233,5 @@ Branches in Git are like parallel versions of your project. They allow you to wo
 
    **Discard Changes In Working Directory**:
    ```bash
-    git checkout -- file
+    git checkout -- filename
    ```
